@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Bold.eot');
+    src: url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+    url('../fonts/MyriadPro-Bold.woff') format('woff'),
+    url('../fonts/MyriadPro-Bold.ttf') format('truetype'),
+    url('../fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +24,7 @@ h1{
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    font-family: 'Myriad Pro';
 }
 .announcement{
     width: 100%;
@@ -23,9 +35,13 @@ h1{
     display: inline;
     margin-right: 45px;
     font-size: 48px;
+    font-family: 'Myriad Pro';
     font-weight: bold;
     color: white;
     vertical-align: middle;
+}
+.announcement span:nth-child(2){
+    font-family: 'Oswald', sans-serif;
 }
 .announcement span:last-of-type{
     font-size: 18px;
@@ -50,6 +66,10 @@ h1{
 }
 .artist_info{
    height: 210px;
+    margin-bottom: 48px;
+}
+.artist_info:last-of-type{
+    margin-bottom: 33px;
 }
 .coub{
     height: 100%;
@@ -63,6 +83,7 @@ h1{
     display: inline-block;
     vertical-align: top;
     padding-top: 32px;
+    font-family: 'Myriad Pro';
 }
 .for_spans span:first-of-type{
     font-size: 40px;
@@ -79,8 +100,15 @@ h1{
 .about span{
     display: block;
     font-size: 18px;
+    font-family: 'Oswald', sans-serif;
 }
 .about span:first-of-type{
     font-size: 24px;
     margin-bottom: 16px;
+}
+.diff_marg{
+    margin: 36px 0;
+}
+.announcement.grey.show{
+    margin-bottom: 4px;
 }
