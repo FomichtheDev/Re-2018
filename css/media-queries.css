@@ -1,0 +1,71 @@
+/*@media screen and (min-width: 480px) and (max-width: 1200px){*/
+
+/*}*/
+
+@media only screen and (max-width: 767px) {
+    .for_spans{
+        padding: 0;
+    }
+    .about{
+        padding: 0;
+        max-width: 160px;
+        float: right;
+        vertical-align: top;
+    }
+    .about:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .content{
+        display: block;
+    }
+}
+@media only screen and (max-width: 539px) {
+    .about{
+        float: none;
+        margin-bottom: 50px;
+    }
+    .coub{
+        width: 120px;
+        height: 120px;
+    }
+    .artist_info{
+        margin-bottom:110px;
+    }
+    .artist_info:last-of-type{
+        margin-bottom: 110px;
+    }
+    .content{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 413px) {
+    .time:first-of-type{
+        padding-top: 20px;
+    }
+    .actions{
+        margin-left: 90px;
+    }
+    .time{
+        padding-top: 20px;
+    }
+    .bottom{
+        display: block;
+        margin-top: 20px;
+    }
+    .logo{
+        max-width: 120px;
+        max-height: 120px;
+        padding: 45px 6px 43px;
+    }
+    .about.bottom{
+        max-width: 200px;
+        margin: auto;
+    }
+}
+/*@media only screen and (max-width: 375px) {*/
+    /*.block {*/
+        /*background-color: green;*/
+    /*}*/
+/*}*/
